@@ -100,6 +100,7 @@ const tw = {
       copyLastMessage: "複製最後一個回覆",
       copyLastCode: "複製最後一個程式碼區塊",
       showShortcutKey: "顯示快捷方式",
+      clearContext: "清除上下文",
     },
   },
   Export: {
@@ -379,6 +380,17 @@ const tw = {
         ApiVersion: {
           Title: "API 版本（僅適用於 gemini-pro）",
           SubTitle: "選擇一個特定的 API 版本",
+        },
+      },
+      AI302: {
+        ApiKey: {
+          Title: "API 金鑰",
+          SubTitle: "使用自訂 302.AI API 金鑰",
+          Placeholder: "302.AI API 金鑰",
+        },
+        Endpoint: {
+          Title: "端點位址",
+          SubTitle: "範例：",
         },
       },
       CustomModel: {

@@ -106,6 +106,7 @@ const cn = {
       copyLastMessage: "复制最后一个回复",
       copyLastCode: "复制最后一个代码块",
       showShortcutKey: "显示快捷方式",
+      clearContext: "清除上下文",
     },
   },
   Export: {
@@ -462,6 +463,17 @@ const cn = {
           SubTitle: "样例：",
         },
       },
+      DeepSeek: {
+        ApiKey: {
+          Title: "接口密钥",
+          SubTitle: "使用自定义DeepSeek API Key",
+          Placeholder: "DeepSeek API Key",
+        },
+        Endpoint: {
+          Title: "接口地址",
+          SubTitle: "样例：",
+        },
+      },
       XAI: {
         ApiKey: {
           Title: "接口密钥",
@@ -478,6 +490,17 @@ const cn = {
           Title: "接口密钥",
           SubTitle: "使用自定义 ChatGLM API Key",
           Placeholder: "ChatGLM API Key",
+        },
+        Endpoint: {
+          Title: "接口地址",
+          SubTitle: "样例：",
+        },
+      },
+      SiliconFlow: {
+        ApiKey: {
+          Title: "接口密钥",
+          SubTitle: "使用自定义硅基流动 API Key",
+          Placeholder: "硅基流动 API Key",
         },
         Endpoint: {
           Title: "接口地址",
@@ -514,6 +537,17 @@ const cn = {
       CustomModel: {
         Title: "自定义模型名",
         SubTitle: "增加自定义模型可选项，使用英文逗号隔开",
+      },
+      AI302: {
+        ApiKey: {
+          Title: "接口密钥",
+          SubTitle: "使用自定义302.AI API Key",
+          Placeholder: "302.AI API Key",
+        },
+        Endpoint: {
+          Title: "接口地址",
+          SubTitle: "样例：",
+        },
       },
     },
 
@@ -625,6 +659,9 @@ const cn = {
   },
   Discovery: {
     Name: "发现",
+  },
+  Mcp: {
+    Name: "MCP",
   },
   FineTuned: {
     Sysmessage: "你是一个助手",
